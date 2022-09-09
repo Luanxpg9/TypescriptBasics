@@ -15,7 +15,7 @@ Apesar de seguir um tutorial, muita coisa foi alterada do código original, por 
 `npm install`
 
 2. Escolha o módulo a ser executado, entre no diretório correspondente e execute o comando:
-`node nomeDoArquivo.js`
+`ts-node nomeDoArquivo.ts`
 
 3. A resposta deve aparecer no console em que o comando foi executado
 
