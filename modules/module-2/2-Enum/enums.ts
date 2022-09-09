@@ -1,6 +1,6 @@
 //#region Simple Enum
-console.log("\n---------------------");
-console.log("Numeric Enumerator\n");
+console.log('\n---------------------');
+console.log('Numeric Enumerator\n');
 
 enum Idioma {
   Portugues,
@@ -13,26 +13,26 @@ console.log(Idioma);
 //#endregion
 
 //#region String Enum
-console.log("\n---------------------");
-console.log("String Enumerator\n");
+console.log('\n---------------------');
+console.log('String Enumerator\n');
 
 enum Dia {
-  Segunda = "Seg",
-  Terca = "TER",
-  Quarta = "QUA",
-  Quinta = "QUI",
-  Sexta = "SEX",
-  Sabado = "SAB",
-  Domingo = "DOM",
+  Segunda = 'Seg',
+  Terca = 'TER',
+  Quarta = 'QUA',
+  Quinta = 'QUI',
+  Sexta = 'SEX',
+  Sabado = 'SAB',
+  Domingo = 'DOM',
 }
 
 console.log(Dia);
-console.log("Segunda: " + Dia.Segunda);
+console.log('Segunda: ' + Dia.Segunda);
 //#endregion
 
 //#region Const Enum
-console.log("\n---------------------");
-console.log("Const Enumerator\n");
+console.log('\n---------------------');
+console.log('Const Enumerator\n');
 
 const enum Comida {
   Hamburger,
@@ -43,7 +43,7 @@ const enum Comida {
 }
 
 function comida(c: Comida) {
-  return "Comida muito apetitosa!";
+  return 'Comida muito apetitosa!';
 }
 
 console.log(comida(Comida.Pizza));
