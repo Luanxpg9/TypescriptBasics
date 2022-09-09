@@ -1,6 +1,6 @@
 //#region Simple Enum
 console.log("\n---------------------");
-console.log("Simple Enumerator\n");
+console.log("Numeric Enumerator\n");
 
 enum Idioma {
     Portugues,
@@ -27,3 +27,5 @@ enum IdiomaString {
 console.log(IdiomaString);
 console.log("Portuguese: " + IdiomaString.Portugues)
 //#endregion
+
+
