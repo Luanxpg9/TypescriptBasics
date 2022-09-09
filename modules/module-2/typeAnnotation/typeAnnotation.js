@@ -132,3 +132,5 @@ function criarPessoa(...nome) {
 console.log(criarPessoa('Luan', 'Barbosa'));
 console.log(criarPessoa('Glaucia', 'de Souza', 'Lemos'));
 //#endregion
+//#region Enums
+//#endregion

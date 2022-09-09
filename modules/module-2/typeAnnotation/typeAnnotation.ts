@@ -203,3 +203,9 @@ console.log(criarPessoa('Glaucia', 'de Souza', 'Lemos'));
 
 
 //#endregion
+
+//#region Enums
+
+
+
+//#endregion
